@@ -43,7 +43,7 @@ bot.on('reconnecting', () => {
   logger.debug('Reconnecting');
 });
 
-const subredditUrl = `https://www.reddit.com/r/${process.env.SUBREDDIT}/new.json?limit=10`;
+const subredditUrl = `https://www.reddit.com/r/DIY/new.json?limit=10`;
 
 setInterval(() => {
   if (botReady) {
